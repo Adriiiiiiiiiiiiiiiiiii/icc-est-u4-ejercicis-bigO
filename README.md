@@ -175,7 +175,7 @@ public static boolean tieneDuplicadosOpt(int[] arr) {
 2. Luego compila el test (indicando el classpath de salida):
 
    ```bash
-   javac -d out -cp "out:lib/*" src/test/TestOptimizacion.java
+   javac -d out -cp "out;lib/*" src/test/TestOptimizacion.java
    ```
 3. Ejecuta el test:
 
@@ -208,3 +208,6 @@ public static boolean tieneDuplicadosOpt(int[] arr) {
 ## Conclusión
 
 Este proyecto permite fortalecer la comprensión sobre el análisis y optimización de la complejidad temporal de algoritmos, asociando teoría y práctica. La retroalimentación automática facilita la identificación de errores y refuerza el aprendizaje activo.
+
+
+
